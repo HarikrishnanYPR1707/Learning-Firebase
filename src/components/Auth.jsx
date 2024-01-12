@@ -51,7 +51,7 @@ const Auth = () => {
         placeholder="Password..."
         onChange={(e) => setPasswordValue(e.target.value)}
       />
-      <button onClick={handleSignIn}>Sign in</button>
+      <button onClick={handleSignIn}>Sign in with Email & Password</button>
       <button onClick={googleSignIn}>sign in with google</button>
       {user ? (
         <button style={{ backgroundColor: "red" }} onClick={logout}>
